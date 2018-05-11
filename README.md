@@ -7,7 +7,7 @@ You have been asked to help with planning an ad-hoc communications network over 
 
 The order of when the towers come online is important. Once a tower has acquired its rectangular section, no subsequent tower can overlap that section. You may assume the following for this problem:
 
-● All rectangular sections have integer-based corners.
+     ● All rectangular sections have integer-based corners.
      ● All rectangular sections must be contained in the overall rectangular footprint.
      ● The height and width of each rectangular section is sampled from a uniform distribution.
      ● Positions of the windows are also determined by uniform random distribution. 
@@ -16,6 +16,6 @@ The order of when the towers come online is important. Once a tower has acquired
 
 Write a detailed Jupyter notebook that implements a solution to this problem such that the user can supply the following overall size of desired coverage footprint and then determine the following:
 
-● Given an overall desired coverage footprint and a sequence of n communications towers, what is the resulting resolved coverage?
+     ● Given an overall desired coverage footprint and a sequence of n communications towers, what is the resulting resolved coverage?
      ● What is the total area of coverage relative to the desired total coverage area of the original footprint? That is, are there any gaps in coverage?
      ● On average, how many communications towers are required before full coverage is obtained?
